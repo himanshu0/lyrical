@@ -1,0 +1,43 @@
+
+.lyrical_Btn {
+    background-color:#44c767;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:11px;
+    padding:2px 2px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.lyrical_Btn:hover {
+    background-color:#5cbf2a;
+}
+.lyrical_Btn:active {
+    position:relative;
+    top:1px;
+}
+
+
+.lyrical_LyricsInputTextArea {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+    height: 600px;
+    z-index: 100000;  /*random high value */
+
+}
+
+.lyrical_CurrentLineDisplay {
+    position: fixed;
+    top: 200px;
+    left: 100px;
+    width: 600px;
+    height: 20px;
+    z-index: 100001;  /*random high value */
+}
